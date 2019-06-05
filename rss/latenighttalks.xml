@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+   <channel>
+      <title>Late Night Talks With the Boys</title>
+      <link>https://222talks.github.io/LateNightTalks</link>
+      <description>Late night talks with the boys about sports</description>
+      <language>en-us</language>
+	  <copyright>Copyright 2019 222 talks</copyright>
+	  <lastBuildDate>Wed, 05 Jun 2019 17:09:31 EDT</lastBuildDate>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <item>
+         <title>Test podcast</title>
+         <link>https://222talks.github.io/LateNightTalks/test.mp3</link>
+         <description>This short podcast is provided as a test.</description>
+         <pubDate>Wed, 05 Jun 2019 17:09:31 EDT</pubDate>
+         <guid isPermaLink="false">lnt-19-000</guid>
+      </item>
+   </channel>
+</rss>
