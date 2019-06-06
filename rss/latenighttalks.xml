@@ -13,7 +13,7 @@
          <title>Late Night Talks with the Boys logo</title>
          <link>https://222talks.github.io/LateNightTalks</link>
       </image>
-      <itunes:category text="Sports" />
+      <itunes:category text="Sports"></itunes:category>
       <itunes:owner>
          <itunes:email>1jusapet@mlsem.org</itunes:email>
          <itunes:name>Tobias Edgett</itunes:name>
