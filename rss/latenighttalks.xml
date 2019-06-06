@@ -3,17 +3,37 @@
    <channel>
       <title>Late Night Talks With the Boys</title>
       <link>https://222talks.github.io/LateNightTalks</link>
-      <description>Late night talks with the boys about sports</description>
+      <itunes:subtitle>Late night talks with the boys about sports</itunes:subtitle>
+      <description>Late night talks with the boys about sports.</description>
+      <itunes:author>Tobias Edgett</itunes:author>
       <language>en-us</language>
-	  <copyright>Copyright 2019 222 talks</copyright>
-	  <lastBuildDate>Wed, 05 Jun 2019 17:09:31 EDT</lastBuildDate>
+      <itunes:image href="https://222talks.github.io/logo.png"/>
+      <image>
+         <url>https://222talks.github.io/logo.png</url>
+         <title>Late Night Talks with the Boys logo</title>
+         <link>https://222talks.github.io/LateNightTalks</link>
+      </image>
+      <itunes:category text="Sports" />
+      <itunes:owner>
+         <itunes:email>1jusapet@mlsem.org</itunes:email>
+         <itunes:name>Tobias Edgett</itunes:name>
+      </itunes:owner>
+      <itunes:explicit>false</itunes:explicit>
+      <copyright>Copyright 2019 222 talks</copyright>
+      <lastBuildDate>Wed, 05 Jun 2019 17:09:31 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
-         <title>Test podcast</title>
-         <link>https://222talks.github.io/LateNightTalks/test.mp3</link>
+         <title>Test Podcast</title>
+         <itunes:title>Test Podcast</itunes:title>
          <description>This short podcast is provided as a test.</description>
+         <enclosure>
+            url="https://222talks.github.io/LateNightTalks/test.mp3"
+            length="7"
+            type="audio/mpeg"
+         />
          <pubDate>Wed, 05 Jun 2019 17:09:31 EDT</pubDate>
          <guid isPermaLink="false">lnt-19-000</guid>
+         <itunes:explicit>false</itunes:explicit>
       </item>
    </channel>
 </rss>
