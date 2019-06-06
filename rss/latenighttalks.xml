@@ -27,7 +27,7 @@
          <itunes:title>NBA game 3</itunes:title>
          <description>The boys discuss the NBA finals game 3, Tigers, and more!</description>
          <enclosure
-            url="https://drive.google.com/uc?export=download&id=1yP83s5ufxadtAJZRt1vTAbBxVLiSEu1B"
+            url="https://drive.google.com/uc?export=download&amp;id=1yP83s5ufxadtAJZRt1vTAbBxVLiSEu1B"
             length="1900"
             type="audio/mpeg"
          />
