@@ -26,7 +26,7 @@
          <title>Test Podcast</title>
          <itunes:title>Test Podcast</itunes:title>
          <description>This short podcast is provided as a test.</description>
-         <enclosure>
+         <enclosure
             url="https://222talks.github.io/LateNightTalks/test.mp3"
             length="7"
             type="audio/mpeg"
