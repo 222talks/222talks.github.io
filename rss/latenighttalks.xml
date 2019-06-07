@@ -20,7 +20,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2019 222 talks</copyright>
-      <lastBuildDate>Thu, 06 Jun 2019 01:37:30 EDT</lastBuildDate>
+      <lastBuildDate>Thu, 06 Jun 2019 23:18:55 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>NBA game 3</title>
@@ -33,6 +33,19 @@
          />
          <pubDate>Wed, 05 Jun 2019 23:50:00 EDT</pubDate>
          <guid isPermaLink="false">lnt-19-01</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
+      <item>
+         <title>Squad up</title>
+         <itunes:title>Squad up</itunes:title>
+         <description>Sports, trains, movies, and more with Jo and Garrett</description>
+         <enclosure
+            url="https://222talks.github.io/LateNightTalks/LateNightTalks2.mp3"
+            length="1914"
+            type="audio/mpeg"
+         />
+         <pubDate>Thu, 06 Jun 2019 23:05:00 EDT</pubDate>
+         <guid isPermaLink="false">lnt-19-02</guid>
          <itunes:explicit>false</itunes:explicit>
       </item>
    </channel>
