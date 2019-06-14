@@ -4,7 +4,7 @@
       <title>Late Night Talks With the Boys</title>
       <link>https://222talks.github.io/LateNightTalks</link>
       <itunes:subtitle>Late night talks with the boys about sports</itunes:subtitle>
-      <description>Late night talks with the boys about sports.</description>
+      <description>Host Tobias Edgett and various guests, often the boys, have late night talks about sports and various other topics.</description>
       <itunes:author>Tobias Edgett</itunes:author>
       <language>en-us</language>
       <itunes:image href="https://222talks.github.io/logo.png"/>
@@ -26,6 +26,7 @@
          <title>NBA game 3</title>
          <itunes:title>NBA game 3</itunes:title>
          <description>The boys discuss the NBA finals game 3, Tigers, and more!</description>
+         <itunes:summary>The boys discuss the NBA finals game 3, Tigers, and more!</itunes:summary>
          <enclosure
             url="https://drive.google.com/uc?export=download&amp;id=1yP83s5ufxadtAJZRt1vTAbBxVLiSEu1B"
             length="49574019"
@@ -39,7 +40,8 @@
       <item>
          <title>Squad up</title>
          <itunes:title>Squad up</itunes:title>
-         <description>Sports, trains, movies, and more with Jo and Garrett</description>
+         <description>Sports, trains, movies, and more with Jo and Garrett.</description>
+         <itunes:summary>Sports, trains, movies, and more with Jo and Garrett.</itunes:summary>
          <enclosure
             url="https://222talks.github.io/LateNightTalks/LateNightTalks2.mp3"
             length="22607420"
