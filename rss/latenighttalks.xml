@@ -28,10 +28,11 @@
          <description>The boys discuss the NBA finals game 3, Tigers, and more!</description>
          <enclosure
             url="https://drive.google.com/uc?export=download&amp;id=1yP83s5ufxadtAJZRt1vTAbBxVLiSEu1B"
-            length="1900"
+            length="49574019"
             type="audio/mpeg"
          />
          <pubDate>Wed, 05 Jun 2019 23:50:00 EDT</pubDate>
+         <itunes:duration>1900</itunes:duration>
          <guid isPermaLink="false">lnt-19-01</guid>
          <itunes:explicit>false</itunes:explicit>
       </item>
@@ -41,10 +42,11 @@
          <description>Sports, trains, movies, and more with Jo and Garrett</description>
          <enclosure
             url="https://222talks.github.io/LateNightTalks/LateNightTalks2.mp3"
-            length="1914"
+            length="22607420"
             type="audio/mpeg"
          />
          <pubDate>Thu, 06 Jun 2019 23:05:00 EDT</pubDate>
+         <itunes:duration>1914</itunes:duration>
          <guid isPermaLink="false">lnt-19-02</guid>
          <itunes:explicit>false</itunes:explicit>
       </item>
