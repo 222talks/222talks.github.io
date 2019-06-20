@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.navigation-bar {
+  background-color: #efefef;
+  text-align: center;
+}
+
+.navigation {
+  list-style: none;
+  max-width: 96%;
+  margin-top: 0;
+  padding: 1.25em 0em
+}
+
+.navigation-item {
+  width: 16%;
+  display: inline-block;
+}
+
+.navigation-link {
+  font-size: 1.2em;
+  font-family: arial, verdana, helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  padding: 0.75em
+}
+
+.main {
+  margin: 1em 1em 1em 1em;
+}
