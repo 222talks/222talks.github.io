@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+.header {
+  width:100%
+}
+
 .navigation-bar {
   background-color: #efefef;
   text-align: center;
