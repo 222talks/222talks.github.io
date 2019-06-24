@@ -30,13 +30,13 @@ body {
   font-family: arial, verdana, helvetica, sans-serif;
   text-decoration: none;
   color: black;
-  padding: 0.5em;
+  padding: 0 1vw;
   white-space: nowrap;
 }
 
 .csshax {
   width: 100%;
-  height: 0;
+  height: 1vw;
   display: inline-block;
 }
 
