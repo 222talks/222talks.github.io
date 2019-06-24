@@ -20,7 +20,8 @@ body {
 }
 
 .navigation-item {
-  width: 16%;
+  min-width: 8%;
+  max-width: 50%;
   display: inline-block;
 }
 
@@ -30,6 +31,7 @@ body {
   text-decoration: none;
   color: black;
   padding: 0.5em;
+  white-space: nowrap;
 }
 
 .main {
