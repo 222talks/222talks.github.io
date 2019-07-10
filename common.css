@@ -3,7 +3,8 @@ body {
 }
 
 .header {
-  width: 100%;
+  width: 97%;
+  padding: 1% 1.5%;
 }
 
 .navigation-bar {
@@ -42,4 +43,27 @@ body {
 
 .main {
   margin: 1em 1em 1em 1em;
+}
+
+.footer {
+  background-color: #efefef;
+  width: 97%;
+  padding: 1.5% 1.5% 1% 1.5%;
+}
+
+.footer-item {
+  display: inline-block;
+  width: 48%;
+  font-family: sans-serif;
+  font-size: 1.4vw;
+}
+
+.footer-item.left {
+  text-align: left;
+  margin-right: auto;
+}
+
+.footer-item.right {
+  text-align: right;
+  margin-left: auto;
 }
