@@ -3,8 +3,8 @@ body {
 }
 
 .header {
-  width: 97%;
-  padding: 1% 1.5%;
+  width: 96%;
+  padding: 1.5% 2%;
 }
 
 .navigation-bar {
@@ -14,7 +14,7 @@ body {
 
 .navigation {
   list-style: none;
-  max-width: 92%;
+  max-width: 95%;
   margin-top: 0;
   margin: 0 auto;
   padding: 0;
@@ -27,7 +27,7 @@ body {
 }
 
 .navigation-link {
-  font-size: 2.4vw;
+  font-size: 2.2vw;
   font-family: arial, verdana, helvetica, sans-serif;
   text-decoration: none;
   color: black;
@@ -37,7 +37,7 @@ body {
 
 .csshax {
   width: 100%;
-  height: 1vw;
+  height: 1.4vw;
   display: inline-block;
 }
 
@@ -48,7 +48,7 @@ body {
 .footer {
   background-color: #efefef;
   width: 97%;
-  padding: 1.5% 1.5% 1% 1.5%;
+  padding: 1.5%;
 }
 
 .footer-item {
