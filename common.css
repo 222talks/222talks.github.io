@@ -14,7 +14,7 @@ body {
 
 .navigation {
   list-style: none;
-  max-width: 95%;
+  max-width: 94%;
   margin-top: 0;
   margin: 0 auto;
   padding: 0;
@@ -28,7 +28,7 @@ body {
 
 .navigation-link {
   font-size: 2.2vw;
-  font-family: arial, verdana, helvetica, sans-serif;
+  font-family: arial, helvetica, verdana, sans-serif;
   text-decoration: none;
   color: black;
   padding: 0 1vw;
@@ -42,7 +42,15 @@ body {
 }
 
 .main {
-  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
+}
+
+.description {
+  font-size: 1.5vw;
+  font-family: "Trebuchet MS", arial, helvetica, verdana, sans-serif;
+  text-align: justify;
+  line-height: 140%;
+  padding: 1.4vw 4vw 1.4vw 4vw;
 }
 
 .footer {
