@@ -58,25 +58,23 @@ body {
 
 .footer {
   background-color: #efefef;
-  width: 97%;
+  width: 96%;
   margin: 1.4vw 0 0 0;
-  padding: 1.5%;
+  padding: 2%;
 }
 
 .footer-item {
   display: inline-block;
-  width: 48.5%;
+  width: 50%;
   font-family: sans-serif;
 }
 
 .footer-item.left {
   text-align: left;
-  margin-right: auto;
 }
 
 .footer-item.right {
   text-align: right;
-  margin-left: auto;
 }
 
 @media (orientation: landscape) {
@@ -93,7 +91,7 @@ body {
     font-size: 1.5vw;
   }
   .footer-item {
-    font-size: 1.4vw;
+    font-size: 1.6vw;
   }
 }
 
@@ -111,6 +109,6 @@ body {
     font-size: 3.8vw;
   }
   .footer-item {
-    font-size: 2.6vw;
+    font-size: 2.9vw;
   }
 }
