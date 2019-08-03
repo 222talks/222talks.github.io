@@ -8,7 +8,7 @@ body {
 }
 
 .navigation-bar {
-  background-color: #efefef;
+  background-color: #f0f0f0;
   text-align: justify;
 }
 
@@ -32,6 +32,15 @@ body {
   color: black;
   padding: 0 1vw;
   white-space: nowrap;
+  transition: color 0.35s;
+}
+
+.navigation-link:hover {
+  color: #5f5f5f
+}
+
+.navigation-link.current-page {
+  color: #5f5f5f
 }
 
 .csshax {
@@ -57,7 +66,7 @@ body {
 }
 
 .footer {
-  background-color: #efefef;
+  background-color: #f0f0f0;
   width: 96%;
   margin: 1.4vw 0 0 0;
   padding: 2%;
