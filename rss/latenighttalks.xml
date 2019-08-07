@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
    <channel>
-      <title>Late Night Talks With the Boys</title>
+      <title>Late Night Talks with the Boys</title>
       <link>https://222talks.github.io/LateNightTalks</link>
       <itunes:subtitle>Late night talks with the boys about sports</itunes:subtitle>
       <description>Host Tobias Edgett and various guests, often the boys, have late night talks about sports and various other topics.</description>
@@ -20,7 +20,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2019 222 talks</copyright>
-      <lastBuildDate>Sat, 15 Jun 2019 14:28:20 EDT</lastBuildDate>
+      <lastBuildDate>Wed, 07 Aug 2019 17:23:50 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>NBA game 3</title>
