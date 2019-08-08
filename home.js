@@ -1,7 +1,17 @@
 "use strict"
 
+var allCasts = [];
+
+function formHTML() {
+  var newHTML = "";
+  for (var i = 0; i < 5 && i < allCasts.length; i++) {
+    var currentIterHTML = "";
+    newHTML += currentIterHTML;
+  }
+  document.getElementById("jsfill").innerHTML = newHTML;
+}
+
 function parseXML () {
-  var allCasts = []
   var castList = xmlRequest.responseXML.getElementsByTagName("item");
   for (var i = 0; i < castList.length; i++) {
     var currentAttribs = castList[i].children;
@@ -16,7 +26,7 @@ function parseXML () {
     var d = new Date(b[4]);
     return c - d;
   });
-  console.log(allCasts);
+  formHTML();
 }
 
 var xmlRequest = new XMLHttpRequest();
