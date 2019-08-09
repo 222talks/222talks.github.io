@@ -19,7 +19,7 @@ function parseXML () {
     var currentDescription = currentAttribs[2].innerHTML;
     var currentURL = currentAttribs[4].attributes[0].nodeValue;
     var currentDate = currentAttribs[5].innerHTML;
-    allCasts.push([currentTitle, currentDescription, currentURL, currentDate]);
+    allCasts.push([currentTitle, currentDescription, currentURL, "Late Night Talks", currentDate]);
   }
   allCasts.sort(function(a, b) {
     var c = new Date(a[4]);
