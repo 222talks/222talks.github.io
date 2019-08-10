@@ -1,0 +1,65 @@
+.episode {
+  background-color: #f0f0f0;
+  margin: 1.5em 0em;
+}
+
+.epTitle {
+  font-family: arial, helvetica, verdana, sans-serif;
+}
+
+.epDescription {
+  font-family: "Trebuchet MS", arial, helvetica, verdana, sans-serif;
+  text-align: justify;
+  line-height: 140%;
+  margin: 1em;
+}
+
+audio {
+  display: block;
+  margin: 1em 0;
+}
+
+.epCast, .epDate {
+  font-family: sans-serif;
+  display: inline-block;
+}
+
+.epCast {
+  text-align: left;
+  width: 36%;
+}
+
+.epDate {
+  text-align: right;
+  width: 64%;
+}
+
+@media (orientation: landscape) {
+  .episode {
+    padding: 1.5vw;
+  }
+  .epTitle {
+    font-size: 2.3vw;
+  }
+  .epDescription {
+    font-size: 1.5vw;
+  }
+  .epCast, .epDate {
+    font-size: 1.3vw;
+  }
+}
+
+@media (orientation: portrait) {
+  .episode {
+    padding: 4vw;
+  }
+  .epTitle {
+    font-size: 5.4vw;
+  }
+  .epDescription {
+    font-size: 3.8vw;
+  }
+  .epCast, .epDate {
+    font-size: 3.2vw;
+  }
+}
