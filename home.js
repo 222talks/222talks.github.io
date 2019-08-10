@@ -26,7 +26,7 @@ function parseXML () {
   allCasts.sort(function(a, b) {
     var c = new Date(a[4]);
     var d = new Date(b[4]);
-    return c - d;
+    return d - c;
   });
   formHTML();
 }
