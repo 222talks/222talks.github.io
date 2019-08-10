@@ -11,6 +11,9 @@ function formHTML() {
     newHTML += currentIterHTML;
   }
   document.getElementById("jsfill").innerHTML = newHTML;
+  if (document.getElementById("load").getBoundingClientRect().top > document.documentElement.clientHeight) {
+    document.getElementById("load").style.display = "none";
+  }
 }
 
 function parseXML () {
