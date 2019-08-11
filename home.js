@@ -18,13 +18,24 @@ function formHTML() {
 
 function parseXML () {
   var castList = xmlRequest.responseXML.getElementsByTagName("item");
-  for (var i = 0; i < castList.length; i++) {
-    var currentAttribs = castList[i].children;
-    var currentTitle = currentAttribs[0].innerHTML;
-    var currentDescription = currentAttribs[2].innerHTML;
-    var currentURL = currentAttribs[4].attributes[0].nodeValue;
-    var currentDate = currentAttribs[5].innerHTML;
-    allCasts.push([currentTitle, currentDescription, currentURL, "Late Night Talks", currentDate]);
+  if (typeof castList[0].children === "object") {
+    for (var i = 0; i < castList.length; i++) {
+      var currentAttribs = castList[i].children;
+      var currentTitle = currentAttribs[0].innerHTML;
+      var currentDescription = currentAttribs[2].innerHTML;
+      var currentURL = currentAttribs[4].attributes[0].nodeValue;
+      var currentDate = currentAttribs[5].innerHTML;
+      allCasts.push([currentTitle, currentDescription, currentURL, "Late Night Talks", currentDate]);
+    }
+  } else {
+    for (var i = 0; i < castList.length; i++) {
+      var currentAttribs = castList[i].childNodes;
+      var currentTitle = currentAttribs[1].innerHTML;
+      var currentDescription = currentAttribs[5].innerHTML;
+      var currentURL = currentAttribs[9].attributes[0].nodeValue;
+      var currentDate = currentAttribs[11].innerHTML;
+      allCasts.push([currentTitle, currentDescription, currentURL, "Late Night Talks", currentDate]);
+    }
   }
   allCasts.sort(function(a, b) {
     var c = new Date(a[4]);
