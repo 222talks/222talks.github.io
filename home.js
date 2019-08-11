@@ -6,7 +6,7 @@ function formHTML() {
   var newHTML = "";
   var castNumber = allCasts.length;
   for (var i = 0; i < 5 && i < castNumber; i++) {
-    var currentIterHTML = '\n        <div class="episode">\n          <div class="epTitle">'+allCasts[0][0]+'</div>\n          <div class="epDescription">\n            '+allCasts[0][1]+'\n          </div>\n          <audio controls preload="metadata" src="'+allCasts[0][2]+'"></audio><p>'+allCasts[0][2]+'</p>\n          <div class="epCast">'+allCasts[0][3]+'</div><div class="epDate">'+allCasts[0][4]+'</div>\n        </div>\n';
+    var currentIterHTML = '\n        <div class="episode">\n          <div class="epTitle">'+allCasts[0][0]+'</div>\n          <div class="epDescription">\n            '+allCasts[0][1]+'\n          </div>\n          <audio controls preload="metadata" src="'+allCasts[0][2]+'"></audio>\n          <div class="epCast">'+allCasts[0][3]+'</div><div class="epDate">'+allCasts[0][4]+'</div>\n        </div>\n';
     allCasts.shift();
     newHTML += currentIterHTML;
   }
