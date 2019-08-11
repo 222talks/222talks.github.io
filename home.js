@@ -30,10 +30,10 @@ function parseXML () {
   } else {
     for (var i = 0; i < castList.length; i++) {
       var currentAttribs = castList[i].childNodes;
-      var currentTitle = currentAttribs[1].innerHTML;
-      var currentDescription = currentAttribs[5].innerHTML;
-      var currentURL = currentAttribs[9].attributes[0].nodeValue;
-      var currentDate = currentAttribs[11].innerHTML;
+      var currentTitle = currentAttribs[1].textContent;
+      var currentDescription = currentAttribs[5].textContent;
+      var currentURL = currentAttribs[9].attributes[2].nodeValue;
+      var currentDate = currentAttribs[11].textContent;
       allCasts.push([currentTitle, currentDescription, currentURL, "Late Night Talks", currentDate]);
     }
   }
