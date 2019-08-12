@@ -45,7 +45,7 @@ audio {
     font-size: 1.5vw;
   }
   audio {
-    width: 40%;
+    min-width: 40%;
   }
   .epCast, .epDate {
     font-size: 1.3vw;
