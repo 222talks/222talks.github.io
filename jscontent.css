@@ -54,8 +54,8 @@
 }
 
 #jsfill.jsloaded {
-  animation: jsloaded-content 1s ease-out forwards;
-  -webkit-animation: jsloaded-content 1s ease-out forwards;
+  animation: jsloaded-content 1s ease-in-out forwards;
+  -webkit-animation: jsloaded-content 1s ease-in-out forwards;
 }
 
 .episode {
