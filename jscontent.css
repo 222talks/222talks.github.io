@@ -63,3 +63,15 @@ audio {
     font-size: 3.2vw;
   }
 }
+
+audio::-webkit-media-controls-enclosure {
+  border-radius: 0;
+}
+
+audio::-webkit-media-controls-panel {
+  filter: invert(1);
+}
+
+audio::-webkit-media-controls-enclosure {
+  background: rgba(18, 18, 18, .82);
+}
