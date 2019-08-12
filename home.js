@@ -2,6 +2,12 @@
 
 var allCasts = [];
 
+function cleanup() {
+  document.getElementById("load").style.display = "none";
+  document.getElementById("jsfill").className = "";
+  document.getElementById("load").className = "";
+}
+
 function formHTML() {
   var newHTML = "";
   var castNumber = allCasts.length;
@@ -13,6 +19,10 @@ function formHTML() {
   document.getElementById("jsfill").innerHTML = newHTML;
   if (document.getElementById("load").getBoundingClientRect().top > document.documentElement.clientHeight) {
     document.getElementById("load").style.display = "none";
+  } else {
+    document.getElementById("load").className = "loaded";
+    document.getElementById("jsfill").className += " jsloaded";
+    setTimeout(cleanup, 1000);
   }
 }
 
