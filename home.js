@@ -1,6 +1,7 @@
 "use strict"
 
 var allCasts = [];
+var feedsToParse = 2;
 
 function cleanup() {
   document.getElementById("load").style.display = "none";
@@ -26,7 +27,7 @@ function formHTML() {
   }
 }
 
-function parseXML () {
+function parseXML (xmlRequest, castName) {
   var castList = xmlRequest.responseXML.getElementsByTagName("item");
   if (typeof castList[0].children === "object") {
     for (var i = 0; i < castList.length; i++) {
@@ -38,7 +39,7 @@ function parseXML () {
         currentURL = currentAttribs[4].attributes[2].nodeValue;
       }
       var currentDate = currentAttribs[5].innerHTML;
-      allCasts.push([currentTitle, currentDescription, currentURL, "Late Night Talks", currentDate]);
+      allCasts.push([currentTitle, currentDescription, currentURL, castName, currentDate]);
     }
   } else {
     for (var i = 0; i < castList.length; i++) {
@@ -50,7 +51,7 @@ function parseXML () {
         currentURL = currentAttribs[9].attributes[2].nodeValue;
       }
       var currentDate = currentAttribs[11].textContent;
-      allCasts.push([currentTitle, currentDescription, currentURL, "Late Night Talks", currentDate]);
+      allCasts.push([currentTitle, currentDescription, currentURL, castName, currentDate]);
     }
   }
   allCasts.sort(function(a, b) {
@@ -58,10 +59,18 @@ function parseXML () {
     var d = new Date(b[4]);
     return d - c;
   });
-  formHTML();
+  feedsToParse--;
+  if (feedsToParse === 0) {
+    formHTML();
+  }
 }
 
-var xmlRequest = new XMLHttpRequest();
-xmlRequest.addEventListener("load", parseXML);
-xmlRequest.open("GET", "https://222talks.github.io/rss/latenighttalks.xml");
-xmlRequest.send();
+var xmlRequest1 = new XMLHttpRequest();
+xmlRequest1.addEventListener("load", function() {parseXML(xmlRequest1, "Late Night Talks")});
+xmlRequest1.open("GET", "https://222talks.github.io/rss/latenighttalks.xml");
+xmlRequest1.send();
+
+var xmlRequest2 = new XMLHttpRequest();
+xmlRequest2.addEventListener("load", function() {parseXML(xmlRequest2, "222 Talks")});
+xmlRequest2.open("GET", "https://222talks.github.io/rss/222talks.xml");
+xmlRequest2.send();
