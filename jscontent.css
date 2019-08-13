@@ -238,7 +238,7 @@ audio::-webkit-media-controls-enclosure {
       margin-top: 1vw;
     }
     100% {
-      margin-top: calc(-4vw-1.5em);
+      margin-top: calc(-4vw - 1.5em);
     }
   }
 
@@ -247,7 +247,7 @@ audio::-webkit-media-controls-enclosure {
       margin-top: 1vw;
     }
     100% {
-      margin-top: calc(-4vw-1.5em);
+      margin-top: calc(-4vw - 1.5em);
     }
   }
 }
@@ -280,7 +280,7 @@ audio::-webkit-media-controls-enclosure {
       margin-top: 1.8vw;
     }
     100% {
-      margin-top: calc(-8.3vw-1.5em);
+      margin-top: calc(-8.3vw - 1.5em);
     }
   }
 
@@ -289,7 +289,7 @@ audio::-webkit-media-controls-enclosure {
       margin-top: 1.8vw;
     }
     100% {
-      margin-top: calc(-8.3vw-1.5em);
+      margin-top: calc(-8.3vw - 1.5em);
     }
   }
 }
