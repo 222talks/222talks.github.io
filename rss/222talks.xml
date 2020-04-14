@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+   <channel>
+      <title>222 Talks</title>
+      <link>https://222talks.github.io/222Talks</link>
+      <itunes:subtitle>222 Talks (with the boys)</itunes:subtitle>
+      <description>This is the first podcast to bring you all of the boys together to discuss a variety of topics</description>
+      <itunes:author>Tobias Edgett</itunes:author>
+      <language>en-us</language>
+      <itunes:image href="https://222talks.github.io/logo.png"/>
+      <image>
+         <url>https://222talks.github.io/logo.png</url>
+         <title>222 Talks logo</title>
+         <link>https://222talks.github.io/222Talks</link>
+      </image>
+      <itunes:category text="Sports &amp; Recreation" />
+      <itunes:owner>
+         <itunes:email>222podcasts@gmail.com</itunes:email>
+         <itunes:name>Tobias Edgett</itunes:name>
+      </itunes:owner>
+      <itunes:explicit>false</itunes:explicit>
+      <copyright>Copyright 2019 222 talks</copyright>
+      <lastBuildDate>Mon, 12 Aug 2019 22:24:20 EDT</lastBuildDate>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <item>
+         <title>222 Talks begins</title>
+         <itunes:title>222 Talks begins</itunes:title>
+         <description>Camp talks, wesemboyz, and more!</description>
+         <itunes:summary>Camp talks, wesemboyz, and more!</itunes:summary>
+         <enclosure
+            url="https://222talks.github.io/222Talks/222Talks1.mp3"
+            length="41451938"
+            type="audio/mpeg"
+         />
+         <pubDate>Mon, 12 Aug 2019 21:45:00 EDT</pubDate>
+         <itunes:duration>1727</itunes:duration>
+         <guid isPermaLink="false">222-19-01</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
+   </channel>
+</rss>
