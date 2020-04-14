@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+   <channel>
+      <title>The Joe Show</title>
+      <link>https://222talks.github.io/theJoeShow</link>
+      <description>Host Tobias Edgett discusses sports and current events.</description>
+      <itunes:author>Tobias Edgett</itunes:author>
+      <language>en-us</language>
+      <itunes:image href="https://222talks.github.io/logo.png"/>
+      <image>
+         <url>https://222talks.github.io/logo.png</url>
+         <title>The Joe Show</title>
+         <link>https://222talks.github.io/LateNightTalks</link>
+      </image>
+      <itunes:category text="Sports &amp; Recreation" />
+      <itunes:owner>
+         <itunes:email>222podcasts@gmail.com</itunes:email>
+         <itunes:name>Tobias Edgett</itunes:name>
+      </itunes:owner>
+      <itunes:explicit>false</itunes:explicit>
+      <copyright>Copyright 2020 222 Talks</copyright>
+      <lastBuildDate>Mon, 13 Apr 2020 21:00:00 EDT</lastBuildDate>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <item>
+         <title>Welcome to the Joe Show</title>
+         <itunes:title>Welcome to the Joe Show</itunes:title>
+         <description>Tobias discusses the current NBA season, sports in general, and current events in light of the COVID-19 pandemic.</description>
+         <itunes:summary>Tobias discusses the current NBA season, sports in general, and current events in light of the COVID-19 pandemic.</itunes:summary>
+         <enclosure
+            url="https://222talks.github.io/theJoeShow/JoeShow001.mp3"
+            length="21983849"
+            type="audio/mpeg"
+         />
+         <pubDate>Mon, 13 Apr 2020 20:00:00 EDT</pubDate>
+         <itunes:duration>1418</itunes:duration>
+         <guid isPermaLink="false">js-20-001</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
+   </channel>
+</rss>
