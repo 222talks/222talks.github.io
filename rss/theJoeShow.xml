@@ -19,7 +19,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2020 222 Talks</copyright>
-      <lastBuildDate>Wed, 15 Apr 2020 00:54:00 EDT</lastBuildDate>
+      <lastBuildDate>Wed, 15 Apr 2020 17:36:00 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Welcome to the Joe Show</title>
@@ -34,6 +34,21 @@
          <pubDate>Mon, 13 Apr 2020 20:00:00 EDT</pubDate>
          <itunes:duration>1418</itunes:duration>
          <guid isPermaLink="false">js-20-001</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
+      <item>
+         <title>Episode 2: Q&A with Shay Shay and More</title>
+         <itunes:title>Episode 2: Q&A with Shay Shay and More</itunes:title>
+         <description>Tobias interviews Shayla they discuss the current situation. Then, he answers viewer questions from Instagram including more on the present situation and speculation about sports.</description>
+         <itunes:summary>Tobias interviews Shayla they discuss the current situation. Then, he answers viewer questions from Instagram including more on the present situation and speculation about sports</itunes:summary>
+         <enclosure
+            url="https://222talks.github.io/theJoeShow/JoeShow002.mp3"
+            length="20335998"
+            type="audio/mpeg"
+         />
+         <pubDate>Wed, 15 Apr 2020 18:00:00 EDT</pubDate>
+         <itunes:duration>1827</itunes:duration>
+         <guid isPermaLink="false">js-20-002</guid>
          <itunes:explicit>false</itunes:explicit>
       </item>
    </channel>
