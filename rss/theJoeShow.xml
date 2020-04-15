@@ -8,9 +8,9 @@
       <language>en-us</language>
       <itunes:image href="https://222talks.github.io/logo.png"/>
       <image>
-         <url>https://222talks.github.io/logo.png</url>
+         <url>https://222talks.github.io/logo2.png</url>
          <title>The Joe Show</title>
-         <link>https://222talks.github.io/LateNightTalks</link>
+         <link>https://222talks.github.io/theJoeShow</link>
       </image>
       <itunes:category text="Sports &amp; Recreation" />
       <itunes:owner>
@@ -19,7 +19,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2020 222 Talks</copyright>
-      <lastBuildDate>Mon, 13 Apr 2020 21:00:00 EDT</lastBuildDate>
+      <lastBuildDate>Wed, 15 Apr 2020 00:54:00 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Welcome to the Joe Show</title>
