@@ -6,20 +6,21 @@
       <description>Host Tobias Edgett discusses sports and current events.</description>
       <itunes:author>Tobias Edgett</itunes:author>
       <language>en-us</language>
-      <itunes:image href="https://222talks.github.io/logo.png"/>
+      <itunes:image href="https://222talks.github.io/logo2.png"/>
       <image>
          <url>https://222talks.github.io/logo2.png</url>
          <title>The Joe Show</title>
          <link>https://222talks.github.io/theJoeShow</link>
       </image>
+      <itunes:type>episodic</itunes:type>
       <itunes:category text="Sports &amp; Recreation" />
       <itunes:owner>
-         <itunes:email>222podcasts@gmail.com</itunes:email>
          <itunes:name>Tobias Edgett</itunes:name>
+         <itunes:email>222podcasts@gmail.com</itunes:email>
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2020 222 Talks</copyright>
-      <lastBuildDate>Wed, 15 Apr 2020 17:37:00 EDT</lastBuildDate>
+      <lastBuildDate>Wed, 15 Apr 2020 19:36:00 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Welcome to the Joe Show</title>
@@ -32,13 +33,14 @@
             type="audio/mpeg"
          />
          <pubDate>Mon, 13 Apr 2020 20:00:00 EDT</pubDate>
+         <itunes:episode>1</itunes:episode>
          <itunes:duration>1418</itunes:duration>
          <guid isPermaLink="false">js-20-001</guid>
          <itunes:explicit>false</itunes:explicit>
       </item>
       <item>
          <title>Episode 2: Q&amp;A with Shay Shay and More</title>
-         <itunes:title>Episode 2: Q&amp;A with Shay Shay and More</itunes:title>
+         <itunes:title>Q&amp;A with Shay Shay and More</itunes:title>
          <description>Tobias interviews Shayla they discuss the current situation. Then, he answers viewer questions from Instagram including more on the present situation and speculation about sports.</description>
          <itunes:summary>Tobias interviews Shayla they discuss the current situation. Then, he answers viewer questions from Instagram including more on the present situation and speculation about sports</itunes:summary>
          <enclosure
@@ -47,6 +49,7 @@
             type="audio/mpeg"
          />
          <pubDate>Wed, 15 Apr 2020 18:00:00 EDT</pubDate>
+         <itunes:episode>2</itunes:episode>
          <itunes:duration>1827</itunes:duration>
          <guid isPermaLink="false">js-20-002</guid>
          <itunes:explicit>false</itunes:explicit>
