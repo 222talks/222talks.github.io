@@ -19,7 +19,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2020 222 Talks</copyright>
-      <lastBuildDate>Wed, 15 Apr 2020 17:36:00 EDT</lastBuildDate>
+      <lastBuildDate>Wed, 15 Apr 2020 17:37:00 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Welcome to the Joe Show</title>
@@ -37,8 +37,8 @@
          <itunes:explicit>false</itunes:explicit>
       </item>
       <item>
-         <title>Episode 2: Q&A with Shay Shay and More</title>
-         <itunes:title>Episode 2: Q&A with Shay Shay and More</itunes:title>
+         <title>Episode 2: Q&amp;A with Shay Shay and More</title>
+         <itunes:title>Episode 2: Q&amp;A with Shay Shay and More</itunes:title>
          <description>Tobias interviews Shayla they discuss the current situation. Then, he answers viewer questions from Instagram including more on the present situation and speculation about sports.</description>
          <itunes:summary>Tobias interviews Shayla they discuss the current situation. Then, he answers viewer questions from Instagram including more on the present situation and speculation about sports</itunes:summary>
          <enclosure
