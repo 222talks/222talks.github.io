@@ -1,6 +1,6 @@
 "use strict"
 
-var episodesToLoad = 8;
+var episodesToLoad = 3;
 var feedsToParse = 1;
 
 var xmlRequest1 = new XMLHttpRequest();
