@@ -20,7 +20,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2020 222 Talks</copyright>
-      <lastBuildDate>Wed, 15 Apr 2020 19:36:00 EDT</lastBuildDate>
+      <lastBuildDate>Fri, 17 Apr 2020 17:42:00 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Welcome to the Joe Show</title>
@@ -41,8 +41,8 @@
       <item>
          <title>Episode 2: Q&amp;A with Shay Shay and More</title>
          <itunes:title>Q&amp;A with Shay Shay and More</itunes:title>
-         <description>Tobias interviews Shayla they discuss the current situation. Then, he answers viewer questions from Instagram including more on the present situation and speculation about sports.</description>
-         <itunes:summary>Tobias interviews Shayla they discuss the current situation. Then, he answers viewer questions from Instagram including more on the present situation and speculation about sports</itunes:summary>
+         <description>Tobias interviews Shayla and they discuss the current situation. Then, he answers viewer questions from Instagram including more on the present situation and speculation about sports.</description>
+         <itunes:summary>Tobias interviews Shayla and they discuss the current situation. Then, he answers viewer questions from Instagram including more on the present situation and speculation about sports</itunes:summary>
          <enclosure
             url="https://222talks.github.io/theJoeShow/JoeShow002.mp3"
             length="20335998"
@@ -52,6 +52,22 @@
          <itunes:episode>2</itunes:episode>
          <itunes:duration>1827</itunes:duration>
          <guid isPermaLink="false">js-20-002</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
+      <item>
+         <title>Episode 3: Talking with AJ... yes sir!</title>
+         <itunes:title>Talking with AJ... yes sir!</itunes:title>
+         <description>Tobias interviews AJ. Discussion includes sports and the current world situation.</description>
+         <itunes:summary>Tobias interviews AJ. Discussion includes sports and the current world situation.</itunes:summary>
+         <enclosure
+            url="https://222talks.github.io/theJoeShow/JoeShow003.mp3"
+            length="25650826"
+            type="audio/mpeg"
+         />
+         <pubDate>Fri, 17 Apr 2020 18:00:00 EDT</pubDate>
+         <itunes:episode>3</itunes:episode>
+         <itunes:duration>1603</itunes:duration>
+         <guid isPermaLink="false">js-20-003</guid>
          <itunes:explicit>false</itunes:explicit>
       </item>
    </channel>
