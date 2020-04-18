@@ -20,7 +20,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2020 222 Talks</copyright>
-      <lastBuildDate>Fri, 17 Apr 2020 17:42:00 EDT</lastBuildDate>
+      <lastBuildDate>Fri, 17 Apr 2020 23:48:42 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Welcome to the Joe Show</title>
@@ -57,8 +57,8 @@
       <item>
          <title>Episode 3: Talking with AJ... yes sir!</title>
          <itunes:title>Talking with AJ... yes sir!</itunes:title>
-         <description>Tobias interviews AJ. Discussion includes sports and the current world situation.</description>
-         <itunes:summary>Tobias interviews AJ. Discussion includes sports and the current world situation.</itunes:summary>
+         <description>Tobias interviews AJ. Discussion includes sports, video games, and the current world situation.</description>
+         <itunes:summary>Tobias interviews AJ. Discussion includes sports, video games, and the current world situation.</itunes:summary>
          <enclosure
             url="https://222talks.github.io/theJoeShow/JoeShow003.mp3"
             length="25650826"
