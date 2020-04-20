@@ -20,7 +20,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2020 222 Talks</copyright>
-      <lastBuildDate>Fri, 17 Apr 2020 23:48:42 EDT</lastBuildDate>
+      <lastBuildDate>Mon, 20 Apr 2020 17:24:00 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Welcome to the Joe Show</title>
@@ -68,6 +68,22 @@
          <itunes:episode>3</itunes:episode>
          <itunes:duration>1603</itunes:duration>
          <guid isPermaLink="false">js-20-003</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
+      <item>
+         <title>Episode 4: Stories with JD</title>
+         <itunes:title>Stories with JD</itunes:title>
+         <description>Tobias and JD talk about old stories from playing baseball together.</description>
+         <itunes:summary>Tobias and JD talk about old stories from playing baseball together.</itunes:summary>
+         <enclosure
+            url="https://222talks.github.io/theJoeShow/JoeShow004.mp3"
+            length="24163719"
+            type="audio/mpeg"
+         />
+         <pubDate>Mon, 20 Apr 2020 18:00:00 EDT</pubDate>
+         <itunes:episode>4</itunes:episode>
+         <itunes:duration>2001</itunes:duration>
+         <guid isPermaLink="false">js-20-004</guid>
          <itunes:explicit>false</itunes:explicit>
       </item>
    </channel>
