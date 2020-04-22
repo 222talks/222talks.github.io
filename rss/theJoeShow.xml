@@ -20,7 +20,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2020 222 Talks</copyright>
-      <lastBuildDate>Mon, 20 Apr 2020 17:24:00 EDT</lastBuildDate>
+      <lastBuildDate>Wed, 22 Apr 2020 17:52:00 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Welcome to the Joe Show</title>
@@ -55,8 +55,8 @@
          <itunes:explicit>false</itunes:explicit>
       </item>
       <item>
-         <title>Episode 3: Talking with AJ... yes sir!</title>
-         <itunes:title>Talking with AJ... yes sir!</itunes:title>
+         <title>Episode 3: Talking with AJ... Yes Sir!</title>
+         <itunes:title>Talking with AJ... Yes Sir!</itunes:title>
          <description>Tobias interviews AJ. Discussion includes sports, video games, and the current world situation.</description>
          <itunes:summary>Tobias interviews AJ. Discussion includes sports, video games, and the current world situation.</itunes:summary>
          <enclosure
@@ -84,6 +84,22 @@
          <itunes:episode>4</itunes:episode>
          <itunes:duration>2001</itunes:duration>
          <guid isPermaLink="false">js-20-004</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
+      <item>
+         <title>Episode 5: Joing with Professor</title>
+         <itunes:title>Joing with Professor</itunes:title>
+         <description>Tobias talks with Professor LaBair about a bunch of awesome stuff.</description>
+         <itunes:summary>Tobias talks with Professor LaBair about a bunch of awesome stuff.</itunes:summary>
+         <enclosure
+            url="https://222talks.github.io/theJoeShow/JoeShow005.mp3"
+            length="21845758"
+            type="audio/mpeg"
+         />
+         <pubDate>Wed, 22 Apr 2020 18:00:00 EDT</pubDate>
+         <itunes:episode>5</itunes:episode>
+         <itunes:duration>1835</itunes:duration>
+         <guid isPermaLink="false">js-20-005</guid>
          <itunes:explicit>false</itunes:explicit>
       </item>
    </channel>
