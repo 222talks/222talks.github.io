@@ -20,7 +20,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2020 222 Talks</copyright>
-      <lastBuildDate>Wed, 22 Apr 2020 17:52:00 EDT</lastBuildDate>
+      <lastBuildDate>Mon, 27 Apr 2020 17:00:00 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Welcome to the Joe Show</title>
@@ -100,6 +100,22 @@
          <itunes:episode>5</itunes:episode>
          <itunes:duration>1835</itunes:duration>
          <guid isPermaLink="false">js-20-005</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
+      <item>
+         <title>Episode 6: Joing with Reagan</title>
+         <itunes:title>Joing with Reagan</itunes:title>
+         <description>Tobias talks to Reagan and Caleb about the NFL draft, sports, and life.</description>
+         <itunes:summary>Tobias talks to Reagan and Caleb about the NFL draft, sports, and life.</itunes:summary>
+         <enclosure
+            url="https://222talks.github.io/theJoeShow/JoeShow006.mp3"
+            length="20752295"
+            type="audio/mpeg"
+         />
+         <pubDate>Mon, 27 Apr 2020 18:00:00 EDT</pubDate>
+         <itunes:episode>6</itunes:episode>
+         <itunes:duration>1902</itunes:duration>
+         <guid isPermaLink="false">js-20-006</guid>
          <itunes:explicit>false</itunes:explicit>
       </item>
    </channel>
